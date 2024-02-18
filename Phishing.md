@@ -37,7 +37,6 @@ Phishing can occur over a variety of attack vectors, but one of the biggest is e
 Cloudflare Area 1 Email Security offers advanced phishing protection, crawling the Internet and investigating phishing infrastructure to identify phishing campaigns in advance. Learn how Cloudflare Area 1 works.
 
 Phishing คืออะไร ทำไมถึงผู้ใช้งานอินเทอร์เน็ตถึงต้องรู้จัก
-<img src="https://www.quickserv.co.th/texteditor/uploade/1177.jpg">
 
 อินเทอร์เน็ตกับการใช้งานคอมพิวเตอร์ในยุคปัจจุบันนี้ เราแทบจะเรียกได้เลยว่าทั้งสองอย่างนั้นเป็นของคู่กันที่แยกจากกันแทบไม่ได้ ไม่ว่าจะเป็นการใช้คอมพิวเตอร์เพื่อการทำงาน โดยเฉพาะอย่างยิ่งกับเรื่องบันเทิงและเกม อย่างจะเห็นว่าอินเทอร์เน็ตกลายเป็นสิ่งที่เข้ามามีบทบาทสำคัญกับการใช้ชีวิตของเราเป็นอย่างมากที่สุด และเมื่อเป็นเรื่องดี ๆ มีประโยชน์ก็เป็นธรรมดาที่จะมีเรื่องอันตรายที่น่าเป็นห่วงอยู่ในนั้นด้วยเสมอ และ phishing คือหนึ่งในเรื่องอันตรายเหล่านั้น
 
