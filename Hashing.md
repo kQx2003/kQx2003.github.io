@@ -27,3 +27,17 @@ In addition to enabling rapid data retrieval, hashing helps encrypt and decrypt 
 Upon receipt, the same hash function derives the message digest from the signature, which is then compared with the transmitted message digest to ensure both are the same. In a one-way hashing operation, the hash function indexes the original value or key and enables access to data associated with a specific value or key that is retrieved.
 
 <img src="https://cdn.ttgtmedia.com/rms/onlineimages/security-digital_signature_process-f.png">
+
+Hashing คืออะไร
+
+Hashing เป็นการเอา data ที่ไม่ว่าจะมีความยาวแค่ไหนก็ตาม (variable length input) (เช่น ungkana, 12 July 2021) มาผ่าน formula (algorithm) และได้ผลออกมาเป็น hash value (หรือ message digest) ซึ่งจะมีความยาวเท่าเดิมเสมอ (Fixed Length Output) ขึ้นอยู่กับ formula ที่เราใช้ (เช่น AES, ECC, MD5 เป็นต้น)
+
+ในที่นี้ ถ้า input data มีการเปลี่ยนแปลงแม้แต่นิดเดียว hash value output จะเปลี่ยนแปลงไปทันที
+
+ตัวอย่างเช่น
+
+<img src="https://media.licdn.com/dms/image/C5612AQEi6G_PsXqnsQ/article-inline_image-shrink_1000_1488/0/1640158379536?e=1714003200&v=beta&t=ZDaa7qwg93tnJradyL1X-d0bciwcmP2pfzn-RUPEXO0">
+
+Hashing เป็น one-way function กล่าวคือ เราไม่สามารถเอาค่า hash มาแปลงเป็น original data ได้โดยตรง แต่หากเราต้องการที่จะรู้ว่า orinal data คืออะไร ไม่สามารถ run ผ่าน formula เพื่อแปลงค่ากลับไปเป็นค่าเดิมได้ เราจะต้องเอา hash value ไป map กับ orignal data และค่า hash ของแต่ละตัว เพื่อระบุว่า original data คืออะไร นั่นเอง
+
+หากเราต้องการทำเป็นแบบ 2 ways นั่นคือ เรามีความตั้งใจที่จะแปลง data กลับไปเป็นค่าตั้งต้น เราอาจจะต้องพิจารณาการทำ encrypting แทน hashing ซึ่ง encrypted data สามารถ run ผ่าน decryption formula เพื่อกลับไปยังค่าเริ่มต้นได้
